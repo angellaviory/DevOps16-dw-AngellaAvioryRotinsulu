@@ -19,7 +19,7 @@ Operating System merupakan penghubung antara software dan hardware, dimana siste
 - Dikarenakan saya telah menginstall multipass, saya hanya perlu membuka aplikasi tersebut.
 <img width="1512" alt="Screenshot 2023-03-13 at 22 35 52" src="https://user-images.githubusercontent.com/102456153/224752730-befa6c20-1452-45e7-997f-d08e5d50058b.png">
 
-- Kemudian saya membuat instance atau server yang akan saya gunakan.
+- Kemudian saya membuat instance atau server yang akan saya gunakan pada terminal lokal. 
 <img width="575" alt="Screenshot 2023-03-13 at 11 22 14" src="https://user-images.githubusercontent.com/102456153/224753248-100fdc8e-efa4-413f-9de0-629e3634617e.png">
 
 - Saya membuka terminal server yang telah saya buat di Multipass. Catatan: dengan menginstall Multipass, maka Ubuntu dan OpenSSH juga terinstall secara otomatis.
