@@ -11,3 +11,10 @@ BASH merupakan scripting shell yang digunakan linux, dimana berbasis text sehing
 - history : command untuk melihat riwayat perintah yang telah digunakan sebelumnya.
 - ls : command untuk melihat list yang ada.
 - echo : command yang bisa digunakan untuk memasukkan teks ke dalam sebuah file dan dapat juga digunakan untuk membuat file baru.
+
+## Networking
+### 1. Jelaskan IP Private dan IP Public.
+- IP Private merupakan alamat IP yang ada pada perangkat seperti laptop, printer, handphone, dll agar dapat terhubung dengan jaringan lokal.
+- IP Public merupakan alamat IP yang diberikan oleh penyedia layanan internet (ISP, contoh: indihome, dll) yang dapat digunakan untuk mengakses internet sehingga dapat terhubung dengan jaringan yang lebih luas.
+
+### 2. Jelaskan perbedaan client Peer to Peer and Client to Server.
