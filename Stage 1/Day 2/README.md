@@ -17,4 +17,6 @@ BASH merupakan scripting shell yang digunakan linux, dimana berbasis text sehing
 - IP Private merupakan alamat IP yang ada pada perangkat seperti laptop, printer, handphone, dll agar dapat terhubung dengan jaringan lokal.
 - IP Public merupakan alamat IP yang diberikan oleh penyedia layanan internet (ISP, contoh: indihome, dll) yang dapat digunakan untuk mengakses internet sehingga dapat terhubung dengan jaringan yang lebih luas.
 
-### 2. Jelaskan perbedaan client Peer to Peer and Client to Server.
+### 2. Jelaskan perbedaan Client to Server dan Peer to Peer.
+- Client to Server atau disebut juga dedicated server merupakan jaringan dimana satu komputer (server) akan menjadi pusat yang dapat diakses oleh komputer-komputer lain (client). Server yang memegang kendali dalam jaringan dan biasanya untuk client bisa terhubung dengan server, harus membuat permintaan kepada server.
+- Peer to Peer atau disebut non dedicated server merupakan jaringan dimana semua komputer dapat menjadi server maupun client. Hal ini komputer satu dengan yang lainnya dapat saling berinteraksi tanpa meminta akses terlebih dahulu.
