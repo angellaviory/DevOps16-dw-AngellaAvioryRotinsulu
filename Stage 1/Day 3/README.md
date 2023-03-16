@@ -16,8 +16,8 @@
 
 
 ### Golang
-- Pertama membuat directory dan install golang
-<img width="574" alt="Screenshot 2023-03-16 at 07 21 00" src="https://user-images.githubusercontent.com/102456153/225477247-458eb18f-c885-4843-bb8e-3cba200c645e.png">
+- Pertama membuat directory dan install engine golang
+<img width="577" alt="Screenshot 2023-03-16 at 10 37 39" src="https://user-images.githubusercontent.com/102456153/225507969-88fb5f23-05bc-4868-840f-5890c140b028.png">
 
 - 
 
