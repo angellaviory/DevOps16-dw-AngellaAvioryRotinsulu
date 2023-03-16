@@ -27,4 +27,6 @@
 <img width="575" alt="Screenshot 2023-03-16 at 10 02 06" src="https://user-images.githubusercontent.com/102456153/225500806-33b72a7c-0922-4634-a391-d05d4186c2a4.png">
 
 2. Jalankan aplikasi dengan Flask
-- 
+- Aplikasi dapat diakses di browser dengan ketik url http://127.0.0.1:5000. Tetapi karena belum bisa diakses di browser (membutuhkan langkah tambahan) jadi hanya bisa di terminal.
+<img width="571" alt="Screenshot 2023-03-16 at 10 29 03" src="https://user-images.githubusercontent.com/102456153/225506792-0eac716f-81f6-4590-9c5a-165bc45e2f42.png">
+
