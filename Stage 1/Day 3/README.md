@@ -23,3 +23,8 @@
 
 
 ### Python
+1. Install manager python
+<img width="575" alt="Screenshot 2023-03-16 at 10 02 06" src="https://user-images.githubusercontent.com/102456153/225500806-33b72a7c-0922-4634-a391-d05d4186c2a4.png">
+
+2. Jalankan aplikasi dengan Flask
+- 
