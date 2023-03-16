@@ -1,4 +1,17 @@
 # PM2
+## Install PM2 dengan NPM
+- Pertama instalasi PM2
+<img width="577" alt="Screenshot 2023-03-16 at 21 05 59" src="https://user-images.githubusercontent.com/102456153/225643032-607a990a-0804-4928-b0a2-999fa59a3df9.png">
+
+## Jalankan NodeJS dan Python di PM2
+1. NodeJS
+
+
+2. Python
+<img width="575" alt="Screenshot 2023-03-16 at 21 12 24" src="https://user-images.githubusercontent.com/102456153/225644325-b0aba200-5f29-48b2-8f53-90703b56c6d5.png">
+
+
+
 # Localtunnel
 ## Jalankan NodeJS
 - Berikut dumbflix-frontend diakses di browser dengan localtunnel
