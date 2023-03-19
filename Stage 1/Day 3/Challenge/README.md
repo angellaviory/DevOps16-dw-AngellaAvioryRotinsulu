@@ -1,7 +1,9 @@
 # PM2
 ## Install PM2 dengan NPM
-- Instalasi PM2
-<img width="577" alt="Screenshot 2023-03-16 at 21 05 59" src="https://user-images.githubusercontent.com/102456153/225643032-607a990a-0804-4928-b0a2-999fa59a3df9.png">
+- Berikut penginstalasian PM2 menggunakan NPM
+<img width="574" alt="Screenshot 2023-03-19 at 21 16 29" src="https://user-images.githubusercontent.com/102456153/226182137-2b41a0c6-2060-4e5d-b354-d207bb4e10ba.png">
+
+
 
 ## Jalankan NodeJS dan Python di PM2
 1. NodeJS
