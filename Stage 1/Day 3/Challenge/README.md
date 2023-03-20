@@ -7,7 +7,18 @@
 
 ## Jalankan NodeJS dan Python di PM2
 1. NodeJS
-<img width="575" alt="Screenshot 2023-03-16 at 21 23 43" src="https://user-images.githubusercontent.com/102456153/225647681-a1e193f6-ec6b-4cc7-abce-6c9fd5cff721.png">
+- Masuk ke directory dumbflix dan buat file ecosystem.config.js
+<img width="573" alt="Screenshot 2023-03-20 at 10 46 36" src="https://user-images.githubusercontent.com/102456153/226243291-552bc8c0-8d96-43be-8650-bcf6441dfd1a.png">
+
+- Ganti script untuk dijalankan pada aplikasi dumbflix 
+<img width="576" alt="Screenshot 2023-03-20 at 10 43 11" src="https://user-images.githubusercontent.com/102456153/226243299-d2242c62-dc98-4ece-bf3c-564d31fbe860.png">
+
+- Jalankan PM2 aplikasi dumbflix
+<img width="573" alt="Screenshot 2023-03-20 at 10 42 57" src="https://user-images.githubusercontent.com/102456153/226243306-81ab2804-774e-49cc-9b0c-5b25184f9448.png">
+
+- Akses aplikasi dumbflix di browser
+<img width="1320" alt="Screenshot 2023-03-20 at 10 42 50" src="https://user-images.githubusercontent.com/102456153/226243312-a960ca87-7810-41f7-aecd-04247a2a4052.png">
+
 
 2. Python
 <img width="575" alt="Screenshot 2023-03-16 at 21 12 24" src="https://user-images.githubusercontent.com/102456153/225644325-b0aba200-5f29-48b2-8f53-90703b56c6d5.png">
