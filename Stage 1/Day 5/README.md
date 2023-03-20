@@ -85,5 +85,27 @@ $ sudo apt install nginx
 ## Monitoring
 ### 1. Jelaskan tampilan HTOP
 
+<img width="577" alt="Screenshot 2023-03-21 at 00 06 45" src="https://user-images.githubusercontent.com/102456153/226416680-b230de43-953a-4879-abbe-b9bc197a4dc6.png">
 
-### Gunakan NMON untuk menampilkan CPU, RAM Usage dan Network I/O!
+- CPU: CPU yang digunakan
+- MEM: Total memory
+- Swp: Memory pengganti
+- Tasks: Memberitahukan aplikasi yang berjalan
+- Load Averange: Rata-rata beban system yang berjalan
+- Uptime: Menampilkan waktu berjalannya 
+- PID: ID unik
+- USER: pengguna/Owner 
+- PRI: Prioritas dilihat dari linux karnel
+- NI: Prioritas dilihat dari root atau user
+- VIR: Virtual memory yang dipakai
+- RES: Memory fisik yang dipakai
+- SHR: Memory yang digunakan bersama
+- S: Penggambaran keadaan sekarang
+- CPU%: Persentase pemakaian CPU
+- MEM%: Persentase pemakaian memory
+- TIME+: Waktu berjalan dari semenjak diaktifkan
+- Command: Nama command yang diproses
+
+
+### 2. Gunakan NMON untuk menampilkan CPU, RAM Usage dan Network I/O!
+
