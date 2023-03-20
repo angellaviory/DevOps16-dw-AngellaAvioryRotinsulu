@@ -108,4 +108,7 @@ $ sudo apt install nginx
 
 
 ### 2. Gunakan NMON untuk menampilkan CPU, RAM Usage dan Network I/O!
+> Saya mengetik  c , m , n 
+<img width="579" alt="Screenshot 2023-03-21 at 00 37 20" src="https://user-images.githubusercontent.com/102456153/226422725-b08d0db7-bdce-4bc9-bc20-bcc13d04c968.png">
+<img width="575" alt="Screenshot 2023-03-21 at 00 39 05" src="https://user-images.githubusercontent.com/102456153/226422737-c86f104d-5b9b-45d7-ae31-c78949acc557.png">
 
