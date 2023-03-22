@@ -14,12 +14,15 @@
 
 ### 2. Jalankan Aplikasi Dumbflix di PM2.
 - Masuk ke dalam directory dumbflix
+<img width="574" alt="Screenshot 2023-03-22 at 22 30 24" src="https://user-images.githubusercontent.com/102456153/226955917-fea9d228-1ea0-4fa0-8ccf-164c420bacfb.png">
 
 
-- Jalankan PM2 dumbflix
+- Jalankan aplikasi dumbflix di PM2
+<img width="577" alt="Screenshot 2023-03-22 at 22 30 33" src="https://user-images.githubusercontent.com/102456153/226955933-0fe8b2b6-d9ca-4f56-82b0-7ff4f69885a3.png">
 
 
 - Aplikasi dumbflix telah berhasil di jalankan 
+<img width="1316" alt="Screenshot 2023-03-22 at 22 31 12" src="https://user-images.githubusercontent.com/102456153/226955955-217eef34-9c7f-4a1d-890d-002b1ff36ff2.png">
 
 
 ### 3. Buatlah Reverse Proxy dengan Directory /etc/nginx/dumbways.
