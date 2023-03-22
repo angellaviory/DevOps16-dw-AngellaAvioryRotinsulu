@@ -26,6 +26,33 @@
 
 
 ### 3. Buatlah Reverse Proxy dengan Directory /etc/nginx/dumbways.
+- Pertama masuk ke dalam folder nginx
+
+
+- Kemudian buat directory baru dengan nama "Dumbways"
+
+
+- Setelah itu masuk ke dalam directory dumbways dan membuat file reverse proxy
+
+
+- Dalam file tersebut, masukkan nama domain yang diinginkan dan IP lokal beserta port 3000
+
+
+- Selanjutnya tambahkan konfigurasi baru pada file nginx.conf
+
+
+- Pastikan tidak ada masalah dalam konfigurasi
+
+
+- Jalankan Nginx
+
+
+- Berikutnya membuat virtual host, dimana memasukkan IP dan domain yang sudah dibuat tadi
 
 
 ### 4. Dengan Nginx, Pastikan Dumbflix Bisa Diakses dengan Domain yang Diinginkan.
+
+- Mencoba jalankan aplikasi dumbflix dengan menggunakan domain yang telah dibuat.
+
+
+
