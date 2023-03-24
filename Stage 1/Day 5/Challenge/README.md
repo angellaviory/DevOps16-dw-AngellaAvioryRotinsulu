@@ -1,11 +1,6 @@
 ## Buat BASH Script untuk Instalasi Node Version Manager!
 ```
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
-exec bash
-nvm install 14
-nvm use 14
-node -v
-nvm -v
 ```
 - Buat **nano nvm.sh**. Kemudian path dan copy curl instalasi nvm. 
 <img width="574" alt="Screenshot 2023-03-24 at 14 15 18" src="https://user-images.githubusercontent.com/102456153/227456143-9337bde7-8fbe-43c3-8e17-42d6bece87c3.png">
