@@ -12,75 +12,26 @@ contoh:
 
 ### 2. Buatlah sebuah script untuk:
 1. Memberikan akses ufw pada port 22, 80, 443 dan 3000.
+
 ```
-$ sudo apt install ufw -y
-$ sudo ufw default deny incoming
-$ sudo ufw default allow outgoing
-$ sudo ufw allow 22
-$ sudo ufw allow 80
-$ sudo ufw allow 445
-$ sudo ufw allow 3000 
-$ sudo ufw status
-$ sudo ufw enable
+sudo apt install ufw -y
+sudo ufw default deny incoming
+sudo ufw default allow outgoing
+sudo ufw allow 22
+sudo ufw allow 80
+sudo ufw allow 445
+sudo ufw allow 3000 
+sudo ufw status
+sudo ufw enable
 ```
-- `$ sudo apt install ufw -y`
-> digunakan untuk menginstall firewall
-<img width="575" alt="Screenshot 2023-03-20 at 22 48 39" src="https://user-images.githubusercontent.com/102456153/226414064-23deb027-8952-4fb4-95e9-fd0e8b10b827.png">
+- Masuk ke dalam text editor **ufw.sh**
+<img width="575" alt="Screenshot 2023-03-24 at 13 54 10" src="https://user-images.githubusercontent.com/102456153/227449400-68605569-4d79-40f4-bdc2-6b32fd2e0cf0.png">
 
+- Copy dan paste script diatas dan save
+<img width="577" alt="Screenshot 2023-03-24 at 13 55 36" src="https://user-images.githubusercontent.com/102456153/227449490-f54cf824-b5b5-4829-bbbd-88b00ecd5bc1.png">
 
-- `$ sudo ufw default deny incoming`
-> digunakan untuk memblok akses dari luar ke dalam
-<img width="576" alt="Screenshot 2023-03-20 at 22 49 10" src="https://user-images.githubusercontent.com/102456153/226414081-8802d731-a948-43bc-a6f9-b5bf28eb2700.png">
-
-
-- `$ sudo ufw default allow outgoing`
-> digunakan untuk memberikan akses dari dalam ke luar
-<img width="577" alt="Screenshot 2023-03-20 at 22 49 21" src="https://user-images.githubusercontent.com/102456153/226414099-692c8a7e-7d54-4c5e-9872-ec8868aa855d.png">
-
-
-- `$ sudo ufw allow 22`
-> digunakan untuk memberikan akses SSH
-<img width="575" alt="Screenshot 2023-03-20 at 22 50 24" src="https://user-images.githubusercontent.com/102456153/226413741-a5c1c257-06e2-4487-bff4-c0fea98e79e9.png">
-
-
-- `$ sudo ufw allow 80`
-> digunakan untuk memberikan akses HTTP
-<img width="577" alt="Screenshot 2023-03-20 at 22 50 39" src="https://user-images.githubusercontent.com/102456153/226414143-4af89c27-c63c-4b39-b731-00a1858d6f6e.png">
-
-
-- `$ sudo ufw allow 445`
-> digunakan untuk memberikan akses HTTPS
-<img width="574" alt="Screenshot 2023-03-20 at 22 50 50" src="https://user-images.githubusercontent.com/102456153/226414151-3383e637-1a22-4663-8565-5b40936ddd7c.png">
-
-
-- `$ sudo ufw allow 3000 `
-> digunakan untuk memberikan akses NODEJS
-<img width="576" alt="Screenshot 2023-03-20 at 22 51 04" src="https://user-images.githubusercontent.com/102456153/226414164-a125f356-cba6-4255-b916-9e65f3ec031c.png">
-
-
-- `$ sudo ufw status`
-> digunakan untuk mengecek apa saja yang telah diberikan akses oleh firewall
-<img width="574" alt="Screenshot 2023-03-20 at 22 54 34" src="https://user-images.githubusercontent.com/102456153/226414324-1141f94c-b268-4b33-beac-e1885cbbdf94.png">
-
-
-- `$ sudo ufw enable`
-> digunakan untuk menyalakan firewall
-<img width="577" alt="Screenshot 2023-03-20 at 22 53 59" src="https://user-images.githubusercontent.com/102456153/226414339-02ce9cca-57b0-49ea-8de9-eb1240ae3513.png">
-
-
-
-2. Update apt dan install Nginx
-```
-$ sudo apt update
-$ sudo apt install nginx
-```
-- `$ sudo apt update`
-<img width="574" alt="Screenshot 2023-03-20 at 15 36 29" src="https://user-images.githubusercontent.com/102456153/226287305-ee84a5bf-08b6-4840-b81d-d61f52ae6d0e.png">
-
-
-- `$ sudo apt install nginx`
-<img width="576" alt="Screenshot 2023-03-20 at 15 36 44" src="https://user-images.githubusercontent.com/102456153/226287313-52d45759-17a7-41d0-b84d-4ec0e245225d.png">
-
+- Jalankan bash ufw
+<img width="578" alt="Screenshot 2023-03-24 at 14 03 41" src="https://user-images.githubusercontent.com/102456153/227449502-a7c5c417-c0f5-4d17-af4b-df582862ffcd.png">
 
 ## Monitoring
 ### 1. Jelaskan tampilan HTOP
@@ -93,7 +44,7 @@ $ sudo apt install nginx
 - Tasks: Memberitahukan aplikasi yang berjalan
 - Load Averange: Rata-rata beban system yang berjalan
 - Uptime: Menampilkan waktu berjalannya 
-- PID: ID unik
+- PID: ID 
 - USER: pengguna/Owner 
 - PRI: Prioritas dilihat dari linux karnel
 - NI: Prioritas dilihat dari root atau user
