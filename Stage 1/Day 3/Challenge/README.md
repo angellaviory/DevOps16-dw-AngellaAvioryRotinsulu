@@ -21,8 +21,15 @@
 
 
 2. Python
+- Buka directory aplikasi python dan jalankan aplikasi tersebut dengan PM2.
 <img width="575" alt="Screenshot 2023-03-16 at 21 12 24" src="https://user-images.githubusercontent.com/102456153/225644325-b0aba200-5f29-48b2-8f53-90703b56c6d5.png">
 
+- Dikarenakan saya tidak dapat membuka aplikasi menggunakan IP di browser, saya mencoba membukanya menggunakan localtunnel.
+<img width="576" alt="Screenshot 2023-03-24 at 08 49 25" src="https://user-images.githubusercontent.com/102456153/227404301-0279c83e-94d7-4b2f-bd45-4655fe0d8046.png">
+
+
+- Aplikasi python telah berhasil saya buka di browser.
+<img width="1321" alt="Screenshot 2023-03-24 at 08 49 41" src="https://user-images.githubusercontent.com/102456153/227404305-f6ad5cf7-b4ed-4f5c-b0c2-8cb4beedcc31.png">
 
 # Localtunnel
 ## Jalankan NodeJS
