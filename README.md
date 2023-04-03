@@ -28,4 +28,4 @@
 ## Day 3 (Docker)
 ## Day 4 (CI/CD: Jenkins)
 ## Day 5 (CI/CD: Gitlab CI)
-## Day 6 (AutomationL Terraforms)
+## Day 6 (Automation: Terraforms)
