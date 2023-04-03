@@ -27,5 +27,5 @@
 ## Day 2 (Manage Database with Backend)
 ## Day 3 (Docker)
 ## Day 4 (CI/CD: Jenkins)
-## Day 5 (CI?CD: Gitlab CI)
+## Day 5 (CI/CD: Gitlab CI)
 ## Day 6 (AutomationL Terraforms)
