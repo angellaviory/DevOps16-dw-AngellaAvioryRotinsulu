@@ -26,6 +26,6 @@
 <img width="1324" alt="Screenshot 2023-04-07 at 16 34 47" src="https://user-images.githubusercontent.com/102456153/230643805-eb244082-341d-4305-aaa8-4ea842db2aa2.png">
 <img width="1326" alt="Screenshot 2023-04-07 at 16 35 10" src="https://user-images.githubusercontent.com/102456153/230643818-b48f4435-693e-4a07-a8de-f5c7e8899b48.png">
 
-8. Jangan lupa untuk mengganti baseURL pada ``api.js`` dimana **http** menjadi **https**.
+8. Jangan lupa untuk mengganti baseURL pada ``api.js`` dimana **http** menjadi **https** agar bisa melakukan sign in dan sign up
  <img width="578" alt="Screenshot 2023-04-10 at 12 46 12" src="https://user-images.githubusercontent.com/102456153/230835478-e95d1b3d-dd23-4c43-b796-874db6c3252f.png">
 
