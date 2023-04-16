@@ -35,3 +35,14 @@ sudo apt-get install docker-ce docker-ce-cl1 contalnerd.10 docker-bulldx-plugin 
 
 
 ## Jalankan NGINX On Top Docker
+1. Pull nginx dari Docker Hub
+<img width="767" alt="Screenshot 2023-04-17 at 03 49 29" src="https://user-images.githubusercontent.com/102456153/232341722-b4f971a5-edf1-47b1-a0ac-324cf52d66b4.png">
+
+2. Memastikan bahwa nginx telah berhasil di pull
+<img width="767" alt="Screenshot 2023-04-17 at 03 49 57" src="https://user-images.githubusercontent.com/102456153/232341726-8da96316-4bf4-4186-bbda-f86a574441ca.png">
+
+3. Kemudian jalankan nginx
+<img width="770" alt="Screenshot 2023-04-17 at 03 51 20" src="https://user-images.githubusercontent.com/102456153/232341731-9adf8d00-41d9-4ba8-afba-cde27bd57d0a.png">
+
+4. Mengakses nginx di browser
+<img width="1349" alt="Screenshot 2023-04-17 at 03 51 01" src="https://user-images.githubusercontent.com/102456153/232341734-6f49bee8-d861-44a6-9a76-a416722a5395.png">
