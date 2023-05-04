@@ -1,1 +1,49 @@
-## asd
+## Terraform 
+
+- Pertama lakukan update terlebih dahulu
+<img width="571" alt="Screenshot 2023-05-03 at 03 12 16" src="https://user-images.githubusercontent.com/102456153/236295417-0e346483-b9ea-499d-a3d8-81847b80e7aa.png">
+
+- Kemudian lakukan instalasi package manager **Terraform**
+<img width="571" alt="Screenshot 2023-05-03 at 03 16 22" src="https://user-images.githubusercontent.com/102456153/236295428-662ed422-2368-411e-b7cd-fec34ceeed97.png">
+
+- Lakukan ``echo $PATH`` untuk mengetahui lokasi path Terraform
+<img width="568" alt="Screenshot 2023-05-03 at 03 16 56" src="https://user-images.githubusercontent.com/102456153/236295441-0a9a8f5e-40b8-4cb0-8cef-c8880a65e3db.png">
+
+- Untuk memastikan Terraform sudah terinstall
+<img width="571" alt="Screenshot 2023-05-03 at 03 20 13" src="https://user-images.githubusercontent.com/102456153/236295542-ccd21306-9fa8-4734-b3f0-9b22b3be8c2b.png">
+
+- Sekarang buat directory untuk idch
+<img width="572" alt="Screenshot 2023-05-03 at 03 33 18" src="https://user-images.githubusercontent.com/102456153/236295572-59ecfabb-bb4c-46c1-8621-fe082ced9d25.png">
+
+- Kemudian membuat script terraform **main.tf** di dalam directory yang telah dibuat
+<img width="734" alt="Screenshot 2023-05-03 at 04 04 53" src="https://user-images.githubusercontent.com/102456153/236295583-d25a7488-251d-48f1-a467-16fa9e7cdd68.png">
+<img width="735" alt="Screenshot 2023-05-03 at 04 04 59" src="https://user-images.githubusercontent.com/102456153/236295602-d6d68a16-8555-4102-8d22-1258d2c18ddf.png">
+<img width="734" alt="Screenshot 2023-05-03 at 04 14 03" src="https://user-images.githubusercontent.com/102456153/236295702-791beccf-6cf2-47f6-90c0-91443f72f6ac.png">
+
+- Setelah itu, lakukan `terraform init` untuk initialize script
+<img width="732" alt="Screenshot 2023-05-03 at 04 09 31" src="https://user-images.githubusercontent.com/102456153/236295715-065d5c5f-1631-4efb-8d70-8e5347fde623.png">
+
+- Sekarang lakukan `terraform plan` dan jika script berhasil, akan keluar seperti ini 
+<img width="729" alt="Screenshot 2023-05-03 at 04 14 59" src="https://user-images.githubusercontent.com/102456153/236296127-c6efe9d5-a264-4e47-b242-2e589ca21797.png">
+<img width="733" alt="Screenshot 2023-05-03 at 04 15 05" src="https://user-images.githubusercontent.com/102456153/236296137-63489f87-32b7-41b1-88a6-c529a065bc4a.png">
+<img width="732" alt="Screenshot 2023-05-03 at 04 15 08" src="https://user-images.githubusercontent.com/102456153/236296149-4dd5bd0a-68f3-4ef6-80bc-93ee58d41a2a.png">
+<img width="733" alt="Screenshot 2023-05-03 at 04 15 17" src="https://user-images.githubusercontent.com/102456153/236296293-6e821ed0-9350-4355-8eec-b7c33be37a1b.png">
+
+- Selanjutnya lakukan `terraform apply` dan ketik *yes* untuk dijalankan
+<img width="734" alt="Screenshot 2023-05-03 at 04 16 25" src="https://user-images.githubusercontent.com/102456153/236296384-9cf941ac-ca77-4e70-9fab-8adf86677133.png">
+<img width="732" alt="Screenshot 2023-05-03 at 04 20 15" src="https://user-images.githubusercontent.com/102456153/236296397-31057984-5ee6-49aa-a03c-12dcb5d057a7.png">
+
+
+- Server **appserver**, **gateway**, **monitoring** dan **floting IP** telah berhasil dibuat
+<img width="1321" alt="Screenshot 2023-05-03 at 04 22 04" src="https://user-images.githubusercontent.com/102456153/236296441-8ecf6d2c-e4bc-411b-b157-d43e700e0fb2.png">
+
+<img width="1327" alt="Screenshot 2023-05-03 at 04 23 08" src="https://user-images.githubusercontent.com/102456153/236296571-a4f9591d-6995-4759-9a56-42ebd749698c.png">
+
+<img width="1319" alt="Screenshot 2023-05-03 at 04 23 12" src="https://user-images.githubusercontent.com/102456153/236296575-caac5a65-00c0-4f61-bafa-f0c179dff64f.png">
+
+<img width="1318" alt="Screenshot 2023-05-03 at 04 23 16" src="https://user-images.githubusercontent.com/102456153/236296584-81e38583-8e47-4f80-a676-c890f3790c68.png">
+
+<img width="1322" alt="Screenshot 2023-05-03 at 04 22 33" src="https://user-images.githubusercontent.com/102456153/236296593-7992e880-de34-4e81-b722-44accbb98fbc.png">
+
+
+
