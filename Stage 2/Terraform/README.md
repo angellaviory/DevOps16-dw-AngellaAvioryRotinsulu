@@ -1,11 +1,7 @@
 ## Terraform 
 
 
-
-- Pertama pastikan Terraform sudah terinstall
-<img width="571" alt="Screenshot 2023-05-03 at 03 20 13" src="https://user-images.githubusercontent.com/102456153/236295542-ccd21306-9fa8-4734-b3f0-9b22b3be8c2b.png">
-
-- Sekarang buat directory untuk idch
+- Buat directory untuk server IDCloudHost
 <img width="572" alt="Screenshot 2023-05-03 at 03 33 18" src="https://user-images.githubusercontent.com/102456153/236295572-59ecfabb-bb4c-46c1-8621-fe082ced9d25.png">
 
 - Kemudian membuat script terraform **main.tf** di dalam directory yang telah dibuat
