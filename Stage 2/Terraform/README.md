@@ -1,15 +1,8 @@
 ## Terraform 
 
-- Pertama lakukan update terlebih dahulu
-<img width="571" alt="Screenshot 2023-05-03 at 03 12 16" src="https://user-images.githubusercontent.com/102456153/236295417-0e346483-b9ea-499d-a3d8-81847b80e7aa.png">
 
-- Kemudian lakukan instalasi package manager **Terraform**
-<img width="571" alt="Screenshot 2023-05-03 at 03 16 22" src="https://user-images.githubusercontent.com/102456153/236295428-662ed422-2368-411e-b7cd-fec34ceeed97.png">
 
-- Lakukan ``echo $PATH`` untuk mengetahui lokasi path Terraform
-<img width="568" alt="Screenshot 2023-05-03 at 03 16 56" src="https://user-images.githubusercontent.com/102456153/236295441-0a9a8f5e-40b8-4cb0-8cef-c8880a65e3db.png">
-
-- Untuk memastikan Terraform sudah terinstall
+- Pertama pastikan Terraform sudah terinstall
 <img width="571" alt="Screenshot 2023-05-03 at 03 20 13" src="https://user-images.githubusercontent.com/102456153/236295542-ccd21306-9fa8-4734-b3f0-9b22b3be8c2b.png">
 
 - Sekarang buat directory untuk idch
