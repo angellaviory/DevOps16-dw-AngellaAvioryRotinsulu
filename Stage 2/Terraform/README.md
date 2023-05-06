@@ -35,19 +35,15 @@
 
 - Selanjutnya lakukan `terraform apply` dan ketik *yes* untuk dijalankan
 <img width="734" alt="Screenshot 2023-05-03 at 04 16 25" src="https://user-images.githubusercontent.com/102456153/236296384-9cf941ac-ca77-4e70-9fab-8adf86677133.png">
-<img width="732" alt="Screenshot 2023-05-03 at 04 20 15" src="https://user-images.githubusercontent.com/102456153/236296397-31057984-5ee6-49aa-a03c-12dcb5d057a7.png">
+<img width="781" alt="Screenshot 2023-05-07 at 03 23 17" src="https://user-images.githubusercontent.com/102456153/236645266-4c317716-9f24-4786-a0c9-3681a0a0091e.png">
 
 
 - Server **appserver**, **gateway**, **monitoring** dan **floting IP** telah berhasil dibuat
-<img width="1321" alt="Screenshot 2023-05-03 at 04 22 04" src="https://user-images.githubusercontent.com/102456153/236296441-8ecf6d2c-e4bc-411b-b157-d43e700e0fb2.png">
 
-<img width="1327" alt="Screenshot 2023-05-03 at 04 23 08" src="https://user-images.githubusercontent.com/102456153/236296571-a4f9591d-6995-4759-9a56-42ebd749698c.png">
-
-<img width="1319" alt="Screenshot 2023-05-03 at 04 23 12" src="https://user-images.githubusercontent.com/102456153/236296575-caac5a65-00c0-4f61-bafa-f0c179dff64f.png">
-
-<img width="1318" alt="Screenshot 2023-05-03 at 04 23 16" src="https://user-images.githubusercontent.com/102456153/236296584-81e38583-8e47-4f80-a676-c890f3790c68.png">
-
-<img width="1322" alt="Screenshot 2023-05-03 at 04 22 33" src="https://user-images.githubusercontent.com/102456153/236296593-7992e880-de34-4e81-b722-44accbb98fbc.png">
+<img width="1320" alt="Screenshot 2023-05-07 at 03 20 45" src="https://user-images.githubusercontent.com/102456153/236645185-04f474c8-1f3d-425f-b402-bfc6c4ee8be4.png">
+<img width="1317" alt="Screenshot 2023-05-07 at 03 20 49" src="https://user-images.githubusercontent.com/102456153/236645186-5a2308dd-ea7f-4cf2-a159-93f0fb5ac40f.png">
+<img width="1316" alt="Screenshot 2023-05-07 at 03 20 52" src="https://user-images.githubusercontent.com/102456153/236645189-0083bd7f-bf02-44b1-871f-92523b279871.png">
+<img width="392" alt="Screenshot 2023-05-07 at 03 21 14" src="https://user-images.githubusercontent.com/102456153/236645192-f7363683-5c7f-488a-9be5-e6d5abe1d388.png">
 
 
 
