@@ -5,7 +5,7 @@
 <img width="572" alt="Screenshot 2023-05-03 at 03 33 18" src="https://user-images.githubusercontent.com/102456153/236295572-59ecfabb-bb4c-46c1-8621-fe082ced9d25.png">
 
 - Kemudian membuat script terraform **main.tf** di dalam directory yang telah dibuat
-<img width="814" alt="Screenshot 2023-05-07 at 10 04 05" src="https://user-images.githubusercontent.com/102456153/236655454-f2151bce-9975-424b-a2d0-bbfd52747a29.png">
+<img width="814" alt="Screenshot 2023-05-07 at 10 04 05" src="https://user-images.githubusercontent.com/102456153/236655512-3f030c39-7d23-4f2b-9b81-f0af257fec20.png">
 
 <img width="572" alt="Screenshot 2023-05-07 at 09 29 11" src="https://user-images.githubusercontent.com/102456153/236655405-4dfb9885-62fe-4b15-8ba6-487416ea2727.png">
 
