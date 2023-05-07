@@ -7,15 +7,15 @@
 - Kemudian membuat script terraform **main.tf** di dalam directory yang telah dibuat
 <img width="734" alt="Screenshot 2023-05-03 at 04 04 53" src="https://user-images.githubusercontent.com/102456153/236295583-d25a7488-251d-48f1-a467-16fa9e7cdd68.png">
 <img width="735" alt="Screenshot 2023-05-03 at 04 04 59" src="https://user-images.githubusercontent.com/102456153/236295602-d6d68a16-8555-4102-8d22-1258d2c18ddf.png">
-<img width="572" alt="Screenshot 2023-05-07 at 03 14 44" src="https://user-images.githubusercontent.com/102456153/236645019-744226f1-5a1b-43de-b2df-3455b48f9dcd.png">
+<img width="572" alt="Screenshot 2023-05-07 at 09 29 11" src="https://user-images.githubusercontent.com/102456153/236655405-4dfb9885-62fe-4b15-8ba6-487416ea2727.png">
+
 
 
 - Setelah itu, lakukan `terraform init` untuk initialize script
 <img width="732" alt="Screenshot 2023-05-03 at 04 09 31" src="https://user-images.githubusercontent.com/102456153/236295715-065d5c5f-1631-4efb-8d70-8e5347fde623.png">
 
 - Sekarang lakukan `terraform plan` dan jika script berhasil, akan keluar seperti ini 
-<img width="570" alt="Screenshot 2023-05-07 at 03 15 35" src="https://user-images.githubusercontent.com/102456153/236645036-27489a71-29a4-4d37-a386-2a8496599c61.png">
-<img width="628" alt="Screenshot 2023-05-07 at 03 15 57" src="https://user-images.githubusercontent.com/102456153/236645040-91c1afd3-a4a9-4d88-b6c7-81e8c749d4fe.png">
+<img width="707" alt="Screenshot 2023-05-07 at 09 29 45" src="https://user-images.githubusercontent.com/102456153/236655372-3298dc2d-135f-461c-aee8-906cd0f0a8f0.png">
 
 
 <img width="733" alt="Screenshot 2023-05-03 at 04 15 05" src="https://user-images.githubusercontent.com/102456153/236296137-63489f87-32b7-41b1-88a6-c529a065bc4a.png">
@@ -28,11 +28,8 @@
 
 
 - Server **appserver**, **gateway**, **monitoring** dan **floting IP** telah berhasil dibuat
-
-<img width="1320" alt="Screenshot 2023-05-07 at 03 20 45" src="https://user-images.githubusercontent.com/102456153/236645185-04f474c8-1f3d-425f-b402-bfc6c4ee8be4.png">
-<img width="1317" alt="Screenshot 2023-05-07 at 03 20 49" src="https://user-images.githubusercontent.com/102456153/236645186-5a2308dd-ea7f-4cf2-a159-93f0fb5ac40f.png">
-<img width="1316" alt="Screenshot 2023-05-07 at 03 20 52" src="https://user-images.githubusercontent.com/102456153/236645189-0083bd7f-bf02-44b1-871f-92523b279871.png">
-<img width="392" alt="Screenshot 2023-05-07 at 03 21 14" src="https://user-images.githubusercontent.com/102456153/236645192-f7363683-5c7f-488a-9be5-e6d5abe1d388.png">
-
-
+<img width="1316" alt="Screenshot 2023-05-07 at 09 58 50" src="https://user-images.githubusercontent.com/102456153/236655344-eabbd055-b806-4064-96ae-116041f0ad15.png">
+<img width="1323" alt="Screenshot 2023-05-07 at 09 58 53" src="https://user-images.githubusercontent.com/102456153/236655346-c26b857a-096f-4b2a-805d-ae0dec11963a.png">
+<img width="1323" alt="Screenshot 2023-05-07 at 09 58 55" src="https://user-images.githubusercontent.com/102456153/236655348-3e408a5e-70b0-46da-a139-794bb2189eca.png">
+<img width="1325" alt="Screenshot 2023-05-07 at 09 59 01" src="https://user-images.githubusercontent.com/102456153/236655349-431fd4ab-0f6c-48ab-86ed-c2258eaa3eff.png">
 
