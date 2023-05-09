@@ -6,6 +6,9 @@
 ## 3. Grafana Dashboard
 
 # Install Node-Exporter di Appserver dan Gateway
+1. Appserver
+
+2. Gateway
 
 # Grafana:
 ## Dashboard untuk Monitoring Resourse Server (CPU, RAM, Disk Usage)
