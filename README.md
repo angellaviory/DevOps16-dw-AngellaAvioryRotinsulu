@@ -13,4 +13,4 @@
 ### [Terraforms](https://github.com/angellaviory/DevOps16-dw-AngellaAvioryRotinsulu/tree/main/Stage%202/Terraform)
 ### [Ansible](https://github.com/angellaviory/DevOps16-dw-AngellaAvioryRotinsulu/tree/main/Stage%202/Ansible)
 ### [Monitoring Server](https://github.com/angellaviory/DevOps16-dw-AngellaAvioryRotinsulu/tree/main/Stage%202/Monitoring%20Server)
-### [Kubernetes](https://github.com/angellaviory/DevOps16-dw-AngellaAvioryRotinsulu/tree/main/Stage%202/Kubernetes)
+
