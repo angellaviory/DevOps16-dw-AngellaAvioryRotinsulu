@@ -25,7 +25,7 @@
 
 - Instance aws terlah berhasil dibuat
 <img width="1322" alt="Screenshot 2023-05-15 at 01 53 13" src="https://github.com/angellaviory/DevOps16-dw-AngellaAvioryRotinsulu/assets/102456153/09a5b7a2-525b-4a52-a64b-dd2e482c6d28">
-<img width="1318" alt="Screenshot 2023-05-15 at 01 58 18" src="https://github.com/angellaviory/DevOps16-dw-AngellaAvioryRotinsulu/assets/102456153/c95bfbf6-a2f3-492c-93c8-bf94d1936738">
+
 <img width="1324" alt="Screenshot 2023-05-15 at 01 58 43" src="https://github.com/angellaviory/DevOps16-dw-AngellaAvioryRotinsulu/assets/102456153/95918844-98bc-4fa4-bf4b-70ec47fb2008">
 
 
