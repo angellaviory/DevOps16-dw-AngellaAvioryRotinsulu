@@ -6,9 +6,12 @@
 
 ## 2. Prometheus
 <img width="669" alt="Screenshot 2023-05-15 at 08 10 38" src="https://github.com/angellaviory/DevOps16-dw-AngellaAvioryRotinsulu/assets/102456153/384c9fcf-b326-4c16-9733-58639e026fdc">
+<img width="804" alt="Screenshot 2023-05-15 at 08 48 59" src="https://github.com/angellaviory/DevOps16-dw-AngellaAvioryRotinsulu/assets/102456153/fcc2ce7b-5c5e-42c5-9bfe-a33c2ff898f7">
 
 ## 3. Grafana Dashboard
 <img width="586" alt="Screenshot 2023-05-15 at 08 36 49" src="https://github.com/angellaviory/DevOps16-dw-AngellaAvioryRotinsulu/assets/102456153/99acb14c-3fd0-465f-9d16-45775044685b">
+<img width="1310" alt="Screenshot 2023-05-11 at 20 59 36" src="https://github.com/angellaviory/DevOps16-dw-AngellaAvioryRotinsulu/assets/102456153/ed9b2c18-72df-4594-968d-016ab28b94ce">
+
 
 # Install Node-Exporter di Appserver dan Gateway
 1. Appserver
