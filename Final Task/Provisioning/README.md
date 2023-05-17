@@ -54,4 +54,32 @@
 - Untuk memastikan ansible telah terinstall dengan menggunakan command `ansible --version`.
 <img width="728" alt="Screenshot 2023-05-17 at 08 38 45" src="https://github.com/angellaviory/DevOps16-dw-AngellaAvioryRotinsulu/assets/102456153/a705fbb7-e74d-4662-a5fe-2f4600dbc4c5">
 
-- 
+- Sekarang saya akan memasukkan private-key `id_rsa` lokal saya ke VM multipass saya.
+<img width="783" alt="Screenshot 2023-05-18 at 02 49 28" src="https://github.com/angellaviory/DevOps16-dw-AngellaAvioryRotinsulu/assets/102456153/4093fc97-c7a2-4f4c-b953-b465414d3869">
+
+- Setelah ansible sudah terinstall, saya sudah bisa membuat berbagai macam konfigurasi. Pertama-tama yang akan saya lakukan adalah membuat directory.
+<img width="666" alt="Screenshot 2023-05-18 at 02 20 23" src="https://github.com/angellaviory/DevOps16-dw-AngellaAvioryRotinsulu/assets/102456153/183e2576-f054-416e-ad33-fcdf04ee6fa8">
+
+- Kemudian saya akan membuat file `Inventory` yang berisikan **server** dengan alamat IP nya dan **variabel** berisikan username saya dan lokasi python interpreter saya disimpan.
+<img width="666" alt="Screenshot 2023-05-18 at 02 22 23" src="https://github.com/angellaviory/DevOps16-dw-AngellaAvioryRotinsulu/assets/102456153/ca6752a8-c15d-49f4-8e8f-dd20c5ed4eae">
+
+- Kemudian saya akan membuat file `ansible.cfg`, yang berisikan *default*. Disini invenetory akan diarahkan ke file **Inventory**, memberitahukan lokasi private-key saya berada, Meng-skip finger print dan python interpreter menjadi auto silent.
+<img width="664" alt="Screenshot 2023-05-18 at 02 23 35" src="https://github.com/angellaviory/DevOps16-dw-AngellaAvioryRotinsulu/assets/102456153/db992c59-fe83-4e96-b360-1dfd04ac3334">
+
+## Appserver
+- Berikut konfigurasi setup docker untuk server appserver dalam bentuk yaml file.
+<img width="760" alt="Screenshot 2023-05-18 at 02 45 45" src="https://github.com/angellaviory/DevOps16-dw-AngellaAvioryRotinsulu/assets/102456153/bc4528e9-7a66-47de-8cfc-e3cbc741c3e5">
+
+## Gateway
+- Berikut konfigurasi setup docker untuk server gateway dalam bentuk yaml file.
+<img width="755" alt="Screenshot 2023-05-18 at 02 46 05" src="https://github.com/angellaviory/DevOps16-dw-AngellaAvioryRotinsulu/assets/102456153/09486b2e-5dfd-4592-85d0-b4256d85445f">
+
+## CI/CD
+- Berikut konfigurasi setup docker untuk server cicd dalam bentuk yaml file.
+<img width="761" alt="Screenshot 2023-05-18 at 02 46 11" src="https://github.com/angellaviory/DevOps16-dw-AngellaAvioryRotinsulu/assets/102456153/1e4e322f-aba1-49f0-bc94-3b7fd5ac35e5">
+
+## Monitoring
+- Berikut konfigurasi setup docker untuk server monitoring dalam bentuk yaml file.
+<img width="759" alt="Screenshot 2023-05-18 at 02 46 18" src="https://github.com/angellaviory/DevOps16-dw-AngellaAvioryRotinsulu/assets/102456153/2d4a1a18-59d9-444c-91af-f8a5a9752eb4">
+
+
