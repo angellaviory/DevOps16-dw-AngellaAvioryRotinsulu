@@ -66,20 +66,26 @@
 - Kemudian saya akan membuat file `ansible.cfg`, yang berisikan *default*. Disini invenetory akan diarahkan ke file **Inventory**, memberitahukan lokasi private-key saya berada, Meng-skip finger print dan python interpreter menjadi auto silent.
 <img width="664" alt="Screenshot 2023-05-18 at 02 23 35" src="https://github.com/angellaviory/DevOps16-dw-AngellaAvioryRotinsulu/assets/102456153/db992c59-fe83-4e96-b360-1dfd04ac3334">
 
-## Appserver
-- Berikut konfigurasi setup docker untuk server appserver dalam bentuk yaml file.
-<img width="760" alt="Screenshot 2023-05-18 at 02 45 45" src="https://github.com/angellaviory/DevOps16-dw-AngellaAvioryRotinsulu/assets/102456153/bc4528e9-7a66-47de-8cfc-e3cbc741c3e5">
+## Install Docker Engine di Semua Server
+- Sekarang saya akan membuat setup ansible untuk instalasi docker. Berikut isi konfigurasi file ``docker.yml``.
+<img width="666" alt="Screenshot 2023-05-18 at 18 18 31" src="https://github.com/angellaviory/DevOps16-dw-AngellaAvioryRotinsulu/assets/102456153/9e5c9e76-23eb-4c47-870a-cebb8eb35f3f">
 
-## Gateway
-- Berikut konfigurasi setup docker untuk server gateway dalam bentuk yaml file.
-<img width="755" alt="Screenshot 2023-05-18 at 02 46 05" src="https://github.com/angellaviory/DevOps16-dw-AngellaAvioryRotinsulu/assets/102456153/09486b2e-5dfd-4592-85d0-b4256d85445f">
+- Selanjutnya saya akan menjalankan ansible-playbook untuk instalasi docker.
+<img width="706" alt="Screenshot 2023-05-18 at 18 19 43" src="https://github.com/angellaviory/DevOps16-dw-AngellaAvioryRotinsulu/assets/102456153/6c3c1518-1207-4950-8daf-3b06de9ca564">
 
-## CI/CD
-- Berikut konfigurasi setup docker untuk server cicd dalam bentuk yaml file.
-<img width="761" alt="Screenshot 2023-05-18 at 02 46 11" src="https://github.com/angellaviory/DevOps16-dw-AngellaAvioryRotinsulu/assets/102456153/1e4e322f-aba1-49f0-bc94-3b7fd5ac35e5">
+- Saya masuk ke server **appserver**, **gateway**, **cicd** dan **monitoring** dan mencoba `docker version` untuk melihat apakah telah berhasil terinstall. Dapat dolihat saya telah berhasil menginstall docker.
+<img width="878" alt="Screenshot 2023-05-19 at 02 44 32" src="https://github.com/angellaviory/DevOps16-dw-AngellaAvioryRotinsulu/assets/102456153/675198d0-5804-4541-b4ba-176970ed1f94">
 
-## Monitoring
-- Berikut konfigurasi setup docker untuk server monitoring dalam bentuk yaml file.
-<img width="759" alt="Screenshot 2023-05-18 at 02 46 18" src="https://github.com/angellaviory/DevOps16-dw-AngellaAvioryRotinsulu/assets/102456153/2d4a1a18-59d9-444c-91af-f8a5a9752eb4">
+
+## Install Node Exporter di Semua Server
+- Sekarang saya akan membuat setup ansible untuk instalasi node expoter. Berikut isi konfigurasi file ``node.yml``.
+<img width="608" alt="Screenshot 2023-05-19 at 02 01 16" src="https://github.com/angellaviory/DevOps16-dw-AngellaAvioryRotinsulu/assets/102456153/329de575-9bef-41d3-92d8-719f00e8d766">
+
+- Selanjutnya saya akan menjalankan ansible-playbook untuk instalasi node exporter.
+<img width="850" alt="Screenshot 2023-05-19 at 02 52 27" src="https://github.com/angellaviory/DevOps16-dw-AngellaAvioryRotinsulu/assets/102456153/39aa9032-110b-4f94-b574-54dec2e3858b">
+
+- Saya masuk ke server **appserver**, **gateway**, **cicd** dan **monitoring** dan mencoba `docker images` dan `docker ps -a` untuk melihat apakah berhasil mem-pull image *node exporter* dan berjalan (mengeluarkan script metrics). Dapat dilihat saya telah berhasil menginstall node exporter.
+<img width="988" alt="Screenshot 2023-05-19 at 02 57 21" src="https://github.com/angellaviory/DevOps16-dw-AngellaAvioryRotinsulu/assets/102456153/c2271210-5ff5-486c-a7cf-d4f17abead96">
+<img width="1148" alt="Screenshot 2023-05-19 at 03 03 56" src="https://github.com/angellaviory/DevOps16-dw-AngellaAvioryRotinsulu/assets/102456153/9220b096-5d45-4b25-9404-6511bbfb1b82">
 
 
