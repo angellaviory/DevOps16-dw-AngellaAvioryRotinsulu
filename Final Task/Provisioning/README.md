@@ -84,7 +84,7 @@
 - Selanjutnya saya akan menjalankan ansible-playbook untuk instalasi node exporter.
 <img width="850" alt="Screenshot 2023-05-19 at 02 52 27" src="https://github.com/angellaviory/DevOps16-dw-AngellaAvioryRotinsulu/assets/102456153/39aa9032-110b-4f94-b574-54dec2e3858b">
 
-- Saya masuk ke server **appserver**, **gateway**, **cicd** dan **monitoring** dan mencoba `docker images` dan `docker ps -a` untuk melihat apakah berhasil mem-pull image *node exporter* dan berjalan (mengeluarkan script metrics). Dapat dilihat saya telah berhasil menginstall node exporter.
+- Saya masuk ke server **appserver**, **gateway**, **cicd** dan **monitoring** dan mencoba `docker images` dan `docker ps -a` untuk melihat apakah berhasil mem-pull image *node exporter* dan menjalankannya di browser (mengeluarkan script metrics). Dapat dilihat saya telah berhasil menginstall node exporter.
 <img width="988" alt="Screenshot 2023-05-19 at 02 57 21" src="https://github.com/angellaviory/DevOps16-dw-AngellaAvioryRotinsulu/assets/102456153/c2271210-5ff5-486c-a7cf-d4f17abead96">
 <img width="1148" alt="Screenshot 2023-05-19 at 03 03 56" src="https://github.com/angellaviory/DevOps16-dw-AngellaAvioryRotinsulu/assets/102456153/9220b096-5d45-4b25-9404-6511bbfb1b82">
 
