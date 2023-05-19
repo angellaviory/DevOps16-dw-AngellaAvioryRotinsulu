@@ -88,4 +88,16 @@
 <img width="988" alt="Screenshot 2023-05-19 at 02 57 21" src="https://github.com/angellaviory/DevOps16-dw-AngellaAvioryRotinsulu/assets/102456153/c2271210-5ff5-486c-a7cf-d4f17abead96">
 <img width="1148" alt="Screenshot 2023-05-19 at 03 03 56" src="https://github.com/angellaviory/DevOps16-dw-AngellaAvioryRotinsulu/assets/102456153/9220b096-5d45-4b25-9404-6511bbfb1b82">
 
+## Install NGINX di Server Gateway
+- Selanjutnya saya akan menginstall web server, yaitu NGINX. Langkah pertama yang saya lakukan adalah membuat setup instalasi nginx di file YAML dengan nama `nginx.yml`.
+
+
+
+- Sekarang saya akan membuat directory baru yang berisikan konfigurasi-konfigurasi domain server beserta IP nya.
+
+
+- Setelah itu, sekarang saya akan menjalankan ansible-playbook. Saya telah berhasil menjalankan instalasi nginx di server gateway.
+
+
+
 
