@@ -34,7 +34,13 @@
 <img width="692" alt="Screenshot 2023-05-17 at 16 06 19" src="https://github.com/angellaviory/DevOps16-dw-AngellaAvioryRotinsulu/assets/102456153/c7022353-abc5-4f03-8a87-d71643a13cac">
 <img width="639" alt="Screenshot 2023-05-17 at 19 26 41" src="https://github.com/angellaviory/DevOps16-dw-AngellaAvioryRotinsulu/assets/102456153/56766973-94e8-43ba-9eb2-b9aac9f4b902">
 
-- Server telah berhasil dibuat dengan terraform. Berikut saya sudah bisa mengakses server tanpa memasukkan ssh.
+- Server telah berhasil dibuat dengan terraform. Berikut tampilan server IDCloudHost yang berhasil dibuat dan saya sudah bisa mengakses server tanpa memasukkan ssh.
+<img width="927" alt="Screenshot 2023-05-17 at 19 47 56" src="https://github.com/angellaviory/DevOps16-dw-AngellaAvioryRotinsulu/assets/102456153/b49845fa-2b87-42dd-ba58-30baeb540c16">
+<img width="925" alt="Screenshot 2023-05-17 at 19 48 01" src="https://github.com/angellaviory/DevOps16-dw-AngellaAvioryRotinsulu/assets/102456153/a28a7d59-137b-42d9-91a2-05cac22dd556">
+<img width="925" alt="Screenshot 2023-05-17 at 19 48 04" src="https://github.com/angellaviory/DevOps16-dw-AngellaAvioryRotinsulu/assets/102456153/11ab1c1c-30c8-4ae4-a16a-65f3330b0c1e">
+<img width="927" alt="Screenshot 2023-05-17 at 19 48 08" src="https://github.com/angellaviory/DevOps16-dw-AngellaAvioryRotinsulu/assets/102456153/7ca25f95-5d5a-43c1-b3ee-8014aa3c7b66">
+
+
 <img width="737" alt="Screenshot 2023-05-17 at 19 28 39" src="https://github.com/angellaviory/DevOps16-dw-AngellaAvioryRotinsulu/assets/102456153/424c13cb-8199-43f7-b186-79b41b101860">
 <img width="773" alt="Screenshot 2023-05-17 at 19 29 23" src="https://github.com/angellaviory/DevOps16-dw-AngellaAvioryRotinsulu/assets/102456153/95148f96-bd9d-4797-b555-73e980ec62d9">
 <img width="701" alt="Screenshot 2023-05-17 at 19 30 42" src="https://github.com/angellaviory/DevOps16-dw-AngellaAvioryRotinsulu/assets/102456153/9f0ec57c-2adb-4783-9e34-9cdfc3370c59">
@@ -89,15 +95,38 @@
 <img width="1148" alt="Screenshot 2023-05-19 at 03 03 56" src="https://github.com/angellaviory/DevOps16-dw-AngellaAvioryRotinsulu/assets/102456153/9220b096-5d45-4b25-9404-6511bbfb1b82">
 
 ## Install NGINX di Server Gateway
-- Selanjutnya saya akan menginstall web server, yaitu NGINX. Langkah pertama yang saya lakukan adalah membuat setup instalasi nginx di file YAML dengan nama `nginx.yml`.
+- Selanjutnya saya akan menginstall web server, yaitu NGINX. Langkah pertama yang saya lakukan adalah membuat setup instalasi nginx di file YAML dengan nama `nginx.yml`. Berikut script yang saya gunakan:
+```
+- name: "Nginx Installation"
+  hosts: gateway
+  become: true
+  vars:
+    user: angel
+  tasks:
+    - name: "Instalisasi nginx"
+      apt:
+        name: nginx
+        state: latest
+    - name: "Copy Repo"
+      ansible.builtin.copy:
+        src: /home/ubuntu/ansible/rproxy/
+        dest: /etc/nginx/sites-enabled/
+    - name: "Resart Nginx"
+      service:
+        name: nginx
+        state: restarted
+```
 
 
 
 - Sekarang saya akan membuat directory baru yang berisikan konfigurasi-konfigurasi domain server beserta IP nya.
+<img width="641" alt="Screenshot 2023-05-19 at 11 25 17" src="https://github.com/angellaviory/DevOps16-dw-AngellaAvioryRotinsulu/assets/102456153/d0190041-0239-43e8-82d4-fa0ac27ab6e9">
+<img width="641" alt="Screenshot 2023-05-19 at 11 25 23" src="https://github.com/angellaviory/DevOps16-dw-AngellaAvioryRotinsulu/assets/102456153/8155fa74-af56-4621-9adb-911cbd2a7a37">
+<img width="548" alt="Screenshot 2023-05-19 at 11 26 06" src="https://github.com/angellaviory/DevOps16-dw-AngellaAvioryRotinsulu/assets/102456153/8ef6bbef-7c4a-493b-a8a6-ee22d3f24d43">
 
 
 - Setelah itu, sekarang saya akan menjalankan ansible-playbook. Saya telah berhasil menjalankan instalasi nginx di server gateway.
-
+<img width="635" alt="Screenshot 2023-05-19 at 23 13 12" src="https://github.com/angellaviory/DevOps16-dw-AngellaAvioryRotinsulu/assets/102456153/cf78f6b2-5ffe-460a-b507-b76af7aa1674">
 
 
 
