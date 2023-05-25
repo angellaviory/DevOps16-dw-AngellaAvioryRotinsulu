@@ -128,5 +128,99 @@
 - Setelah itu, sekarang saya akan menjalankan ansible-playbook. Saya telah berhasil menjalankan instalasi nginx di server gateway.
 <img width="635" alt="Screenshot 2023-05-19 at 23 13 12" src="https://github.com/angellaviory/DevOps16-dw-AngellaAvioryRotinsulu/assets/102456153/cf78f6b2-5ffe-460a-b507-b76af7aa1674">
 
+## CI/CD: Jenkins
+- Berikut script ansible yang digunakan untuk menginstall Jenkins:
+```
+- name: "Install Jenkins"
+  become: true
+  gather_facts: false
+  hosts: cicd
+  tasks:
+    - name: "Jenkins On Top Docker"
+      community.docker.docker_container:
+        name: jenkins
+        image: jenkins/jenkins:latest
+        ports:
+          - 8080:8080
+        volumes:
+          - ~/ansible/config/jenkins:/var/jenkins_home
+        restart_policy: unless-stopped
+```
+
+- Kemudian jalankan script ansible tersebut. 
+<img width="572" alt="Screenshot 2023-05-21 at 23 57 57" src="https://github.com/angellaviory/DevOps16-dw-AngellaAvioryRotinsulu/assets/102456153/06bc98a2-6360-4ce4-b02e-eacb3644b8ac">
+
+- Saya coba untuk menjalankan nya di browser. Saya telah berhasil menginstall ansible.
+<img width="1324" alt="Screenshot 2023-05-25 at 16 04 10" src="https://github.com/angellaviory/DevOps16-dw-AngellaAvioryRotinsulu/assets/102456153/fc0d518b-9c7e-4e08-9624-dbe8cb40b095">
+
+
+## Prometheus dan Grafana
+- Berikut script penginstallan prometheus dan grafana menggunakan ansible.
+```
+- name: "Install Monitoring"
+  become: true
+  gather_facts: false
+  hosts: monitoring
+  vars:
+    user: ang
+  tasks:
+    - name: "Create Prometheus Volumes"
+      file:
+        path: /etc/prometheus
+        state: directory
+        mode: "0755"
+
+    - name: "Copy File  Prometheus Config"
+      copy:
+        src: /home/ubuntu/ansible/prometheus.yml
+        dest: /etc/pprometheus/
+        mode: "0644"
+
+    - name: "Create Grafana Volumes"
+      file:
+        path: /grafana-storage
+        state: directory
+        mode: "0755"
+
+    - name: "Pull Image Prometheus"
+      docker_container:
+        name: prometheus
+        image: prom/prometheus
+        volumes:
+          - /etc/prometheus/:/etc/prometheus/
+        command:
+          - --config.file=/etc/prometheus/prometheus.yml
+        ports:
+          - 9090:9090
+
+    - name: "Pull Image Grafna"
+      docker_container:
+        name: grafana
+        image: grafana/grafana
+        ports:
+          - 3000:3000
+```
+- Berikut script scrape_target untuk prometheus mengambil data yaitu node exporter.
+```
+global:
+  scrape_interval: 10s
+scrape_configs:
+  - job_name: "prometheus"
+    statiic_configs:
+       - targets"
+           - node-appserver.angell.studentdumbways.my.id
+           - node-gate.angell.studentdumbways.my.id
+           - node-cicd.angell.studentdumbways.my.id
+           - node-monitoring.angell.studentdumbways.my.id
+```
+
+- Saya coba run ansible-playbook script tersebut.
+<img width="743" alt="Screenshot 2023-05-22 at 17 30 08" src="https://github.com/angellaviory/DevOps16-dw-AngellaAvioryRotinsulu/assets/102456153/d8299daf-22eb-455c-aac5-6eda6712edd0">
+
+- Saya akan mencoba mengakses di. browser saya. Saya telah berhasil menginstall prometheus dan grafana.
+<img width="1324" alt="Screenshot 2023-05-25 at 15 47 52" src="https://github.com/angellaviory/DevOps16-dw-AngellaAvioryRotinsulu/assets/102456153/b24f6833-c688-4239-b614-29fde24970e2">
+
+<img width="1324" alt="Screenshot 2023-05-22 at 18 00 23" src="https://github.com/angellaviory/DevOps16-dw-AngellaAvioryRotinsulu/assets/102456153/4ec5846a-7306-4e9b-88d5-c41c3fd68780">
+
 
 
