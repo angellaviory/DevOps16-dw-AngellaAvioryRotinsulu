@@ -108,24 +108,33 @@ services:
 
 # CI/CD: Jenkins
 - Agar bisa mengakses jenkins, pertama-tama masukkan password untuk meng-unlock jenkins.
+<img width="1323" alt="Screenshot 2023-05-22 at 00 00 37" src="https://github.com/angellaviory/DevOps16-dw-AngellaAvioryRotinsulu/assets/102456153/113300cf-9b45-46ce-a6da-2d697a477380">
 
 - Kemudian saya memilih menginstall dengan menambah plugin tambahan, yaitu **ssh agent**. Setelah itu jenkins akan mulai mendownload.
+<img width="1322" alt="Screenshot 2023-05-22 at 00 01 14" src="https://github.com/angellaviory/DevOps16-dw-AngellaAvioryRotinsulu/assets/102456153/37a171cc-2c0a-4085-928f-3a267bacbfe2">
 
 - Sekarang saya akan meng-create user untuk jenkins.
+<img width="1322" alt="Screenshot 2023-05-22 at 00 07 45" src="https://github.com/angellaviory/DevOps16-dw-AngellaAvioryRotinsulu/assets/102456153/8d138061-c93b-4e65-8b44-6f9c0964f002">
 
 - Setelah itu saya memasukkan IP public saya.
+<img width="1324" alt="Screenshot 2023-05-22 at 00 07 52" src="https://github.com/angellaviory/DevOps16-dw-AngellaAvioryRotinsulu/assets/102456153/efb2d11b-d6bb-4157-9464-c2194401ef2e">
 
 - Jenkins telah berhasil di install dan siap digunakan.
+<img width="1325" alt="Screenshot 2023-05-22 at 00 07 58" src="https://github.com/angellaviory/DevOps16-dw-AngellaAvioryRotinsulu/assets/102456153/bb76d916-398a-496c-8c07-70f6f128d0ee">
 
 - Hal selanjutnya yang saya lakukan adalah membuat **cridentials** dan memasukkan **private-key** local ke jenkins. 
+<img width="1310" alt="Screenshot 2023-05-22 at 00 09 38" src="https://github.com/angellaviory/DevOps16-dw-AngellaAvioryRotinsulu/assets/102456153/5460255a-fdfc-496c-9b22-291f83cd2207">
+<img width="1321" alt="Screenshot 2023-05-22 at 00 09 40" src="https://github.com/angellaviory/DevOps16-dw-AngellaAvioryRotinsulu/assets/102456153/6b90f4a8-328f-4b31-85cf-7819f1918ba7">
 
-- Sekarang saya sudah bisa memulai membuat project. 
+- Sekarang saya akan memulai membuat pipeline jenkins. Saya memilih project menggunakan pipeline dan setiap memulai project baru, lakukan configurasi seperti berikut:
+<img width="1324" alt="Screenshot 2023-05-22 at 00 10 21" src="https://github.com/angellaviory/DevOps16-dw-AngellaAvioryRotinsulu/assets/102456153/82a1077a-8770-4245-9014-ca49bf603e1a">
+<img width="1312" alt="Screenshot 2023-05-22 at 14 13 05" src="https://github.com/angellaviory/DevOps16-dw-AngellaAvioryRotinsulu/assets/102456153/c3402345-4723-4a51-8bb7-d99fdef0fd7a">
+<img width="1308" alt="Screenshot 2023-05-22 at 14 12 56" src="https://github.com/angellaviory/DevOps16-dw-AngellaAvioryRotinsulu/assets/102456153/99853265-c35a-4218-96e9-abec5bff71e3">
+<img width="1313" alt="Screenshot 2023-05-22 at 14 13 13" src="https://github.com/angellaviory/DevOps16-dw-AngellaAvioryRotinsulu/assets/102456153/b201279e-ed5f-4b97-bd4d-a6be31edbc32">
 
-- Kemudian memasukkan repository github yang akan di automasi oleh jenkins.
 
-- Berikut script file **Jenkinsfile**:
+- Kemudian, membuat Jenkinsfile untuk menjalankan CI/CD. Berikut script file **Jenkinsfile** dumbmerch-frontend:
 ```
-#frontend
 def branch = "cicd"
 def repo = "git@github.com:angellaviory/fe-dumbmerch.git"
 def cred = "ang"
@@ -200,8 +209,9 @@ pipeline {
 
     }
 }
-
-#backend
+```
+- Berikut **Jenkinsfile** dumbmerch-backend:
+```
 def branch = "cicd"
 def repo = "git@github.com:angellaviory/be-dumbmerch.git"
 def cred = "ang"
@@ -277,7 +287,10 @@ pipeline {
     }
 }
 ```
+- Kemudian push file Jenkinsfile dumbmerch-frontend dan dumbmerch backend ke GitHub.
+<img width="568" alt="Screenshot 2023-05-22 at 00 59 41" src="https://github.com/angellaviory/DevOps16-dw-AngellaAvioryRotinsulu/assets/102456153/252f75d0-9782-41fa-a09f-eca858950712">
+<img width="655" alt="Screenshot 2023-05-22 at 06 38 22" src="https://github.com/angellaviory/DevOps16-dw-AngellaAvioryRotinsulu/assets/102456153/65b4c1cc-3c7f-46dd-9019-ff8cfab03ef6">
 
-- Kemudian push file tersebut ke GitHub.
-
-- Setelah itu, saya akan build project. Dapat dilihat, saya telah berhasil melakukan **Pull Repository**, **Build image**, **Push Image**, dan **Run Image**.
+- Setelah itu, saya sudah bisa menjalankan pipeline jenkins. Dapat dilihat, saya telah berhasil melakukan **Pull Repository**, **Build image**, **Push Image**, dan **Run Image**.
+<img width="1324" alt="Screenshot 2023-05-22 at 10 07 40" src="https://github.com/angellaviory/DevOps16-dw-AngellaAvioryRotinsulu/assets/102456153/faf86a93-d6e6-4cb4-9ea6-9688866e1edc">
+<img width="1322" alt="Screenshot 2023-05-22 at 14 19 56" src="https://github.com/angellaviory/DevOps16-dw-AngellaAvioryRotinsulu/assets/102456153/855ada11-ecdd-4349-ae6d-e923c9db8f17">
